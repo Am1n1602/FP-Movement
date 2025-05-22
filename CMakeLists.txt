@@ -24,7 +24,7 @@ if (NOT raylib_FOUND) # If there's none, fetch and build raylib
 endif()
 
 # Add the executable
-add_executable(FPMovement Source.cpp)
+add_executable(FPMovement source.cpp)
 
 
 # Set the C++ standard
